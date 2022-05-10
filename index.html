@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,30 +8,81 @@
     <title>Jesse Chou Landing Page</title>
     <link rel="stylesheet" href="style.css">
   </head>
+  
   <body>
-    <div class="header">Jadon Chou 
-        <ul class="header-links">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Story</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
+    <header>
+      <div class="nav">
+        <div class="left">
+          <p id="logo">Jesse Chou</p>
+        </div>
+        <div class="right">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Story</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="welcome">
+        <div class="left">
+          <h1 class="hero">Welcome to my website!</h1>
+          <p class="secondary">This is a website that showcases who I am! Check out below for more!</p>
+          <button class="secondary">Sign up</button>
+        </div>
+        <div class="right">
+          <div>
+            <img class="image" src="./images/Jesse Chou Profile Picture.jpg" alt="jesse">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2>Some of my favorite countries!</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="./images/Waterfall.jpg" alt="iceland">
+          <p>Alyssa and I in Iceland</p>
+        </div>
+
+        <div class="card">
+          <img src="./images/Tenerife.jpg" alt="canary islands">
+          <p>Alyssa in Canary Islands</p>
+        </div>
+
+        <div class="card">    
+          <img src="./images/Monastery.jpg" alt="jordan">
+          <p>The Monastery at Petra. One of the 7 Wonders of the World</p>
+        </div>
+
+        <div class="card">
+          <img src="./images/Venice.jpg" alt="italy">
+          <p>This is a picture of one of the Venice canals.</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="quote">
+        <em>“Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.”</em>
+        <p>– Bernard M. Baruch</p>
     </div>
-    <div class="body">    
-      <div class="hero">
-            <p>This will be the body of my landing page</p>
-      </div>
-      <div class="information">
-          <p>This is where info will go</p> 
-      </div>
-      <div class="quote">
-          <p>This is where quote will go</p>
-      </div>
-      <div class="cta">
-        <p>This is where call to action will go</p>
+
+    <div class="cta">
+      <div class="container">
+        <div class="left">
+          <strong>Feel free to send me an email!<strong>
+          <p class="secondary">Contact me with questions or concerns and I'll get back!</p>
+        </div>
+        <div class="right">
+          <button class="secondary">Sign up</button>
+        </div>
       </div>
     </div>
-    <div class="footer">
-      The Odin Project ❤️
-    </div>
+
+    <footer>
+      Copyright &copy; The Odin Project 2021
+    </footer>
   </body>
+
 </html>
